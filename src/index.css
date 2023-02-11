@@ -1,0 +1,16 @@
+:root {
+   --defaultBgColor: #012f63;
+   --defaultBgSecColor: #012f63bd;
+   --mainColor: #fe667b;
+   --secondaryColor: #a7bbc3;
+   --mainButtonColor: #fc4c63;
+   --mainButtonFontColor: #beced4;
+   --mainButtonHoverColor: #fc203d;
+   --mainButtonFontHoverColor: #deecf0;
+   --navBgColor: transparent;
+}
+select {
+   border: none !important;
+   background-color: var(--defaultBgColor) !important;
+   color: var(--secondaryColor) !important;
+}

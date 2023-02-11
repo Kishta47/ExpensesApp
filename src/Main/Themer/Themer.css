@@ -1,0 +1,17 @@
+.themer {
+   background-color: rgb(168, 197, 197);
+   position: relative;
+   background-attachment: fixed;
+}
+.bgPicker-container {
+   position: relative;
+   padding: 1rem;
+}
+.bgSection {
+   width: 100%;
+   height: 30vh !important;
+   overflow: hidden;
+   position: relative !important;
+   background: var(--defaultBgColor);
+   background: linear-gradient(180deg, var(--defaultBgColor) 20%, var(--defaultBgSecColor) 100%);
+}

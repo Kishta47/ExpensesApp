@@ -1,0 +1,24 @@
+.mainInput {
+   width: 100%;
+   padding: 10px;
+   background-color: transparent !important;
+   color: var(--secondaryColor) !important;
+   border: 2px solid var(--mainColor) !important;
+   position: relative !important;
+   border-top: none !important;
+   border-left: none !important;
+   border-right: none !important;
+}
+
+.mainInput:focus {
+   box-shadow: none !important;
+   border: 2px solid var(--secondaryColor) !important;
+   border-top: none !important;
+   border-left: none !important;
+   border-right: none !important;
+}
+.mainInput::-webkit-input-placeholder,
+.mainInput::-webkit-datetime-edit,
+.mainInput::-webkit-calendar-picker-indicator {
+   color: var(--secondaryColor) !important;
+}

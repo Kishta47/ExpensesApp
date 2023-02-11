@@ -1,0 +1,12 @@
+.cardSection {
+   background-color: #00000050;
+   padding: 1vh !important;
+   position: relative;
+}
+.side-color {
+   position: absolute;
+   height: 100%;
+   width: 20px;
+   top: 0;
+   right: 0;
+}

@@ -1,0 +1,12 @@
+.button {
+   background-color: var(--mainButtonColor);
+   border: none;
+   font-size: 20px;
+   color: var(--mainButtonFontColor);
+   transition: 0.3s all ease-in-out;
+}
+.button:hover {
+   background-color: var(--mainButtonHoverColor);
+
+   color: var(--mainButtonFontHoverColor);
+}
